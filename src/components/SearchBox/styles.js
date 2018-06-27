@@ -23,6 +23,7 @@ export const Input = glamorous.input(
     flex: 1,
     borderWidth: 1,
     outline: 0,
+    margin: 0,
     fontSize: "1em"
   },
   ({ theme }) => ({
@@ -40,6 +41,7 @@ export const Button = glamorous.button(
     display: "inline-flex",
     borderWidth: 1,
     outline: 0,
+    margin: 0,
     cursor: "pointer",
     ":hover": {
       opacity: 0.95

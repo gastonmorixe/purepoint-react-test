@@ -31,7 +31,7 @@ export default {
   layout: {
     main: {
       header: {
-        backgroundColor: "rgb(0,0,0,.9)",
+        backgroundColor: "rgba(0,0,0,.9)",
         color: "white"
       },
       footer: {
