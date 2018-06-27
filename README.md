@@ -16,9 +16,9 @@ Used https://cors-anywhere.herokuapp.com to bypass CORS
 
 ## Todo
 
-- [] Throttle input typing in saga.
-- [] Cancel previous in-flight request (fetch doesn't allow this).
-- [] Todo Loop until load 20 results
+- [ ] Throttle input typing in saga.
+- [ ] Cancel previous in-flight request (fetch doesn't allow this).
+- [ ] Todo Loop until load 20 results
 
 ## Dependencies
 
