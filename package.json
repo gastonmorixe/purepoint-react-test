@@ -17,11 +17,10 @@
     "reselect": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "test:watch": "npm test -- --watch"
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "NODE_PATH=src/ react-scripts test --env=jsdom",
+    "test:watch": "NODE_PATH=src/ npm test -- --watch"
   },
   "devDependencies": {
     "eslint": "^5.0.1",
@@ -32,6 +31,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.1",
     "eslint-plugin-react": "^7.10.0",
-    "prettier": "^1.13.6"
+    "prettier": "^1.13.6",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6"
   }
 }

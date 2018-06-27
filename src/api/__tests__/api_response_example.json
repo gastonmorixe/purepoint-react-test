@@ -1,0 +1,77 @@
+{
+  "title": "Recipe Puppy",
+  "version": 0.1,
+  "href": "http://www.recipepuppy.com/",
+  "results": [
+    {
+      "title": "Mushroom Swiss Cheese Omelet",
+      "href": "http://www.recipezaar.com/Mushroom-Swiss-Cheese-Omelet-160338",
+      "ingredients":
+        "butter, cream, eggs, chives, thyme, garlic, mushroom, red pepper flakes, swiss cheese",
+      "thumbnail": "http://img.recipepuppy.com/36569.jpg"
+    },
+    {
+      "title": "Jarlsberg Oven Omelet",
+      "href": "http://www.recipezaar.com/Jarlsberg-Oven-Omelet-8555",
+      "ingredients":
+        "butter, eggs, cheese, milk, nutmeg, prosciutto, salt, white pepper",
+      "thumbnail": ""
+    },
+    {
+      "title": "Mediterranean Supper Omelet with Fennel, Olives, and Dill",
+      "href":
+        "http://www.epicurious.com/recipes/food/views/Mediterranean-Supper-Omelet-with-Fennel-Olives-and-Dill-233713",
+      "ingredients":
+        "cherry tomato, black pepper, olive oil, red pepper flakes",
+      "thumbnail": "http://img.recipepuppy.com/76105.jpg"
+    },
+    {
+      "title": "Apple Cheese Omelet Recipe",
+      "href": "http://www.grouprecipes.com/22101/apple-cheese-omelet.html",
+      "ingredients":
+        "apple, cinnamon, eggs, cinnamon, swiss cheese, sugar, butter, water",
+      "thumbnail": "http://img.recipepuppy.com/78789.jpg"
+    },
+    {
+      "title": "Artichoke Cheese Oven Omelet",
+      "href": "http://www.recipezaar.com/Artichoke-Cheese-Oven-Omelet-132741",
+      "ingredients":
+        "cheddar cheese, eggs, tomato, monterey jack cheese, parmesan cheese, salsa, sour cream, artichoke",
+      "thumbnail": ""
+    },
+    {
+      "title": "Asparagus and Goat Cheese Souffleed Omelet",
+      "href":
+        "http://www.recipezaar.com/Asparagus-and-Goat-Cheese-Souffleed-Omelet-149577",
+      "ingredients":
+        "asparagus, eggs, flour, goat cheese, black pepper, tarragon, kosher salt, butter",
+      "thumbnail": ""
+    },
+    {
+      "title": "Bacon and Cheese Oven Omelet",
+      "href": "http://www.recipezaar.com/Bacon-and-Cheese-Oven-Omelet-173735",
+      "ingredients": "bacon, eggs, processed cheese, whole milk",
+      "thumbnail": "http://img.recipepuppy.com/111471.jpg"
+    },
+    {
+      "title": "Baked Omelet",
+      "href": "http://www.recipezaar.com/Baked-Omelet-250396",
+      "ingredients":
+        "nonstick cooking spray, egg whites, eggs, green pepper, onions, potato, red pepper",
+      "thumbnail": ""
+    },
+    {
+      "title": "Baked Omelet Roll",
+      "href": "http://www.recipezaar.com/Baked-Omelet-Roll-118363",
+      "ingredients": "flour, cheddar cheese, eggs, black pepper, milk, salt",
+      "thumbnail": "http://img.recipepuppy.com/123885.jpg"
+    },
+    {
+      "title": "Herbed-Cheese and Zucchini Omelet",
+      "href":
+        "http://www.epicurious.com/recipes/food/views/Herbed-Cheese-and-Zucchini-Omelet-479",
+      "ingredients": "cheese, eggs, cheddar cheese, zucchini",
+      "thumbnail": ""
+    }
+  ]
+}
