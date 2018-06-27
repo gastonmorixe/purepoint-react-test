@@ -13,7 +13,7 @@ export const Header = glamorous.header(
     }
   },
   ({ theme }) => ({
-    marginBottom: theme.spacingBase * 2,
+    marginBottom: theme.spacingBase * 4,
     backgroundColor: theme.layout.main.header.backgroundColor,
     color: theme.layout.main.header.color
   })

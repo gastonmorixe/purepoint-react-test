@@ -8,7 +8,8 @@ export default {
   spacingBase: 10,
   colors: {
     ...baseColors,
-    secondaryColors
+    secondaryColors,
+    error: "red"
   },
   search: {
     results: {

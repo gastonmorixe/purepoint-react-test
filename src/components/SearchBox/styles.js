@@ -40,7 +40,10 @@ export const Button = glamorous.button(
     display: "inline-flex",
     borderWidth: 1,
     outline: 0,
-    fontSize: "1em"
+    cursor: "pointer",
+    ":hover": {
+      opacity: 0.95
+    }
   },
   ({ theme }) => ({
     backgroundColor: theme.component.searchBox.button.backgroundColor,
