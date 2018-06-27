@@ -1,0 +1,37 @@
+{
+  "name": "purepoint",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "glamor": "^2.20.40",
+    "glamorous": "^4.13.1",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.4.0",
+    "reselect": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test:watch": "npm test -- --watch"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-flowtype": "^2.49.3",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier": "^1.13.6"
+  }
+}
