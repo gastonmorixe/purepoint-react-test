@@ -10,6 +10,7 @@ export const Footer = glamorous.footer(
   ({ theme }) => ({
     marginLeft: theme.spacingBase * 2,
     marginRight: theme.spacingBase * 2,
+    marginBottom: theme.spacingBase * 2,
     color: theme.layout.main.footer.color,
     fontSize: theme.layout.main.footer.fontSize,
     "&&& a:link, a:visited": {

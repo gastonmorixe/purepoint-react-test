@@ -4,6 +4,7 @@ import View from "./View"
 
 import { getSearchFieldText } from "reduxx/selectors/search"
 import { searchFieldChanged } from "reduxx/actions/search"
+import { throttleHandler } from "utils"
 
 const mapStateToProps = state => ({
   fieldText: getSearchFieldText(state)

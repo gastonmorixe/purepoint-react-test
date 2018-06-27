@@ -4,10 +4,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Table of Contents
 
+- [ToDo](#todo)
 - [Dependencies](#dependencies)
 - [How to run](#how-to-run)
 - [Structure](#structure)
 - [Maintainers](#mantainers)
+
+## Todo
+
+- [] Throttle input typing in saga.
+- [] Cancel previous in-flight request (fetch doesn't allow this).
 
 ## Dependencies
 

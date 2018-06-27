@@ -34,7 +34,14 @@ export default (state = initialState, action) => {
     case SEARCH_REQUEST_SUCCESS:
       return {
         ...state,
-        data: action.payload,
+        data: action.payload.map(r => {
+          return {
+            title: r["title"],
+            ingredients: r["ingredients"].split(", "),
+            thumbnailUrl: r["thumbnail"],
+            href: r["href"]
+          }
+        }),
         loading: false,
         error: null
       }

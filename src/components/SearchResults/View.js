@@ -11,16 +11,7 @@ export default ({ data, isLoading, error, isEmpty }) => (
     {isLoading && <Loading>Loading...</Loading>}
     {data &&
       data.map((result, index) => {
-        return (
-          <SearchResult
-            index={index}
-            key={result["title"]}
-            title={result["title"]}
-            ingredients={result["ingredients"]}
-            thumbnailUrl={result["thumbnail"]}
-            href={result["href"]}
-          />
-        )
+        return <SearchResult index={index} key={result["title"]} {...result} />
       })}
   </SearchResults>
 )

@@ -1,4 +1,4 @@
-import { put, takeLatest } from "redux-saga/effects"
+import { throttle, put, takeLatest } from "redux-saga/effects"
 
 import { SEARCH_FIELD_CHANGED } from "reduxx/constants/search"
 import { searchQuery } from "reduxx/actions/search"
