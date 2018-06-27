@@ -17,6 +17,10 @@ export default (state = initialState, action) => {
     case SEARCH_FIELD_CHANGED:
       return {
         ...state,
+        data:
+          !action.payload || (action.payload && action.payload.length <= 0)
+            ? null
+            : state.data,
         fieldText: action.payload
       }
     case SEARCH_REQUEST_ERROR:
@@ -28,20 +32,22 @@ export default (state = initialState, action) => {
     case SEARCH_REQUEST_LOADING:
       return {
         ...state,
-        loading: true,
+        loading: state.fieldText ? true : null,
         error: null
       }
     case SEARCH_REQUEST_SUCCESS:
       return {
         ...state,
-        data: action.payload.map(r => {
-          return {
-            title: r["title"],
-            ingredients: r["ingredients"].split(", "),
-            thumbnailUrl: r["thumbnail"],
-            href: r["href"]
-          }
-        }),
+        data: !state.fieldText
+          ? null
+          : action.payload.map(r => {
+              return {
+                title: r["title"],
+                ingredients: r["ingredients"].split(", "),
+                thumbnailUrl: r["thumbnail"],
+                href: r["href"]
+              }
+            }),
         loading: false,
         error: null
       }
