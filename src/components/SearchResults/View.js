@@ -9,7 +9,8 @@ export default ({ data, isLoading, error, isEmpty }) => (
     {error && <Error>Opss... Something went wrong.</Error>}
     {isEmpty && <Empty>No recipe found.</Empty>}
     {isLoading && <Loading>Loading...</Loading>}
-    {data &&
+    {!isLoading &&
+      data &&
       data.map((result, index) => {
         return <SearchResult index={index} key={result["title"]} {...result} />
       })}

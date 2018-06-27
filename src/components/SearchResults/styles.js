@@ -6,6 +6,7 @@ export const SearchResults = glamorous.div({}, ({ theme, index }) => ({
 
 export const Empty = glamorous.div(
   {
+    fontWeight: 500,
     textAlign: "center"
   },
   ({ theme }) => ({
