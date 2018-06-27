@@ -1,4 +1,5 @@
 import { createActions } from "redux-actions"
+import AppAPI from "api"
 
 import {
   SEARCH_REQUEST_LOADING,
@@ -15,3 +16,14 @@ export const {
   [SEARCH_REQUEST_ERROR]: error => error,
   [SEARCH_REQUEST_SUCCESS]: data => data
 })
+
+export const searchQuery = query => async dispatch => {
+  dispatch(searchRequestLoading())
+  try {
+    const searchResult = await AppAPI.search(query)
+    debugger
+    dispatch(searchRequestSuccess(searchResult))
+  } catch (error) {
+    dispatch(searchRequestError(error))
+  }
+}

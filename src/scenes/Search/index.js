@@ -1,3 +1,11 @@
+import { connect } from "react-redux"
 import View from "./View"
 
-export default View
+const mapStateToProps = state => {}
+
+const mapDispatchToProps = {}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(View)
