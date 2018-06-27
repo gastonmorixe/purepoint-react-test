@@ -23,6 +23,7 @@ export const {
 export const searchQuery = query => async dispatch => {
   dispatch(searchRequestLoading())
   try {
+    // Todo Loop until load 20 results
     const searchResult = await AppAPI.search(query)
     const json = await searchResult.json()
     dispatch(searchRequestSuccess(json["results"]))

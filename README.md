@@ -14,6 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [] Throttle input typing in saga.
 - [] Cancel previous in-flight request (fetch doesn't allow this).
+- [] Todo Loop until load 20 results
 
 ## Dependencies
 

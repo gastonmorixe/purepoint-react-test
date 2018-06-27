@@ -1,4 +1,4 @@
-import { throttle, put, takeLatest } from "redux-saga/effects"
+import { put, takeLatest } from "redux-saga/effects" // throttle
 
 import { SEARCH_FIELD_CHANGED } from "reduxx/constants/search"
 import { searchQuery } from "reduxx/actions/search"
@@ -9,5 +9,6 @@ function* fetchSearch(action) {
 }
 
 export default function*() {
+  // TODO throttle
   yield takeLatest(SEARCH_FIELD_CHANGED, fetchSearch)
 }
