@@ -10,6 +10,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Structure](#structure)
 - [Maintainers](#mantainers)
 
+## CORS
+
+Used https://cors-anywhere.herokuapp.com to bypass CORS
+
 ## Todo
 
 - [] Throttle input typing in saga.
